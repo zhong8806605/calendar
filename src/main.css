@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style: none;
+}
+/*CalendarHear start */
+#calendarHeader{
+	position: relative;
+	border-top:1px solid #808080;
+	border-bottom: 1px solid #808080; 
+}
+#calendarHeader p{
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	color: #808080;
+}
+.leftControl{
+	width: 0px;
+	height: 0px;
+	border-right: 13px solid #808080;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+.rightControl{
+	width: 0px;
+	height: 0px;
+	border-left: 13px solid #808080;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+/* CalendarBody end */
+
+
+/*CalendarBody start */
+.weekDay,.calenderDay{
+	overflow: hidden;
+}
+
+.weekDayList li{
+	float: left;
+	width: 41px;
+	text-align: center;
+	margin-top: 10px;
+	color: #808080;
+	cursor: pointer;
+}
+.weekDay .weekDayList {
+	color: #808080;
+}
+/*Caledarbody end */
+
+
+/*CalendarControl  start */
+#calendarControl{
+	width: 300px;
+	margin: 0 auto;
+	border:1px solid #808080;
+	border-top: none;
+	padding-bottom: 50px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*CalendarControl  end */
+
+/*curr Day start */
+.weekDayList .currDay{
+ 	color: red ;
+}
+/*curr Day end*/
